@@ -50,11 +50,7 @@ function App() {
           <div className="shadow rounded wetherResultBox">
           <img className="weathorIcon"
               src={require('./weather-app.png')} />
-            <h5 className="weathorCity">
-              {data?.name}
-            </h5>
-            <h6 className="weathorTemp">{((data?.main?.temp) - 273.15).toFixed(2)}°C</h6>
-   
+         
        
           </div>
         </div>
